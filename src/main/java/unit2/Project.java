@@ -83,6 +83,8 @@ public class Project {
         sb1.append("12");
         System.out.println(sb1);
 
+        String text = "qwerty 123";
+        System.out.println(text.substring(7));
 
     }
 }
