@@ -18,7 +18,7 @@ public class CategoryRepository extends ConnectionToDb implements CategoryDao {
     // PreparedStatement
     // CallableStatement
 
-    private final Connection connection;
+    private final Connection  connection;
 
     public CategoryRepository() {
         connection = super.getConnection(url, username, password);
