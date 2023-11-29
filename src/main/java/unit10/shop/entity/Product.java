@@ -13,11 +13,11 @@ import java.util.List;
 @AllArgsConstructor
 public class Product {
 
-private Long id;
+private int id;
 private String name;
 private BigDecimal price;
 
-private List<Images> images;
+private String images;
 
 private Category category;
 

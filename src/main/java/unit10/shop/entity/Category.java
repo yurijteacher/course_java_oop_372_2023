@@ -12,12 +12,27 @@ import java.util.List;
 public class Category {
 
 
-    private Long id;
+    private int id;
     private String name;
     private String description;
-    private List<Images> images;
+    private String images;
 
     private List<Product> products;
 
 
+    public Category(String name, String description, String images) {
+        this.name = name;
+        this.description = description;
+        this.images = images;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", images='" + images + '\'' +
+                '}';
+    }
 }
