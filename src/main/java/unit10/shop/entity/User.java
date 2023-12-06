@@ -19,4 +19,10 @@ public class User {
     private Set<RolesHasUser> rolesHasUsers;
 
     private Customer customer;
+
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 }

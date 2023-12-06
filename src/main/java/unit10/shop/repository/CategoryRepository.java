@@ -10,9 +10,9 @@ import java.util.List;
 
 public class CategoryRepository extends ConnectionToDb implements CategoryDao {
 
-    private final static String url ="jdbc:mysql://localhost:3306/test_group_372";
-    private final static String username = "root";
-    private final static String password = "root1234";
+    public final static String url ="jdbc:mysql://localhost:3306/test_group_372";
+    public final static String username = "root";
+    public final static String password = "root1234";
 
     // Statement
     // PreparedStatement
